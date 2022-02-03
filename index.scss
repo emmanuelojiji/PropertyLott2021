@@ -199,6 +199,13 @@ footer {
   padding-bottom: 50px;
   font-family: "Open Sans";
 
+  input,button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-top: 20px;
+  }
+
   .footer-cta {
     margin-bottom: 50px;
   }
@@ -219,8 +226,7 @@ footer {
     a {
       text-decoration: underline;
       color: #fe8d01;
-    
-     
+
       text-align: right;
     }
   }
