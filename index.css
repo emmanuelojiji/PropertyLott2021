@@ -1,7 +1,7 @@
 .billboard {
   margin-bottom: 70px;
   position: relative;
-  background: #fcefe7;
+  background: #fefaf7;
 }
 .billboard .billboard-wrap {
   display: flex;

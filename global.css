@@ -12,7 +12,7 @@ body {
 }
 
 body {
-  background: #fcefe7;
+  background: #fefaf7;
 }
 
 .page-width {
@@ -58,6 +58,7 @@ p {
 header {
   padding-bottom: 50px;
   padding-top: 25px;
+  background: #fefaf7;
 }
 header .logo {
   font-size: 1.6em;
