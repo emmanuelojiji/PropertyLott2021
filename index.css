@@ -223,7 +223,17 @@ footer {
   margin-bottom: 20px;
 }
 
-.question-button {
+.faq {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #f2f2f2;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.faq h2 {
+  text-align: center;
+}
+.faq .question-button {
   width: 100%;
   text-align: left;
   padding: 25px;
@@ -237,32 +247,30 @@ footer {
   justify-content: space-between;
   cursor: pointer;
   transition: 0.3s ease-in-out;
+  border-bottom: 1px solid #a9a9a9;
 }
-.question-button:hover {
+.faq .question-button:hover {
   background-color: #d9d9d9;
 }
-.question-button .plus {
+.faq .question-button .plus {
   float: right;
   color: #191919;
   font-size: 2em;
   transition: 0.3s ease-in-out;
 }
-
-.answer-container {
+.faq .answer-container {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
 }
-.answer-container .answer {
+.faq .answer-container .answer {
   padding: 18px;
   color: #191919;
   background: #f2f2f2;
 }
-
-.question-open {
+.faq .question-open {
   background-color: #f2f2f2;
 }
-
-.rotate-plus {
+.faq .rotate-plus {
   transform: rotate(45deg);
 }/*# sourceMappingURL=index.css.map */
