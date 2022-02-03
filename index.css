@@ -318,4 +318,9 @@ footer .links a {
 }
 .faq .rotate-plus {
   transform: rotate(45deg);
+}
+
+.countdown h2 {
+  font-size: 2em;
+  line-height: 40px;
 }/*# sourceMappingURL=index.css.map */
