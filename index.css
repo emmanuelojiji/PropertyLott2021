@@ -189,6 +189,9 @@ footer {
   padding-bottom: 50px;
   font-family: "Open Sans";
 }
+footer h2 {
+  color: #fe8d01;
+}
 
 .free {
   color: #ea6310 !important;
