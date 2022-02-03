@@ -185,12 +185,30 @@
 }
 
 footer {
+  font-size: 12px;
   padding-top: 50px;
   padding-bottom: 50px;
   font-family: "Open Sans";
 }
+footer .footer-cta {
+  margin-bottom: 50px;
+}
+footer .logo {
+  font-size: 1.2em;
+  text-align: right;
+  display: block;
+}
 footer h2 {
   color: #fe8d01;
+}
+footer .links {
+  text-align: right;
+  width: 100%;
+}
+footer .links a {
+  text-decoration: underline;
+  color: #fe8d01;
+  text-align: right;
 }
 
 .free {
