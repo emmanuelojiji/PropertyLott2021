@@ -130,6 +130,7 @@
   background: #ffd199;
   position: relative;
   bottom: 10px;
+  padding-bottom: 40px;
 }
 .how-it-works .title {
   margin-bottom: 5px;
@@ -189,7 +190,6 @@ footer {
   padding-top: 50px;
   padding-bottom: 50px;
   font-family: "Open Sans";
-  background-image: url("/circle-background.png");
   background-position: center;
   background-size: cover;
 }
@@ -236,7 +236,7 @@ footer .links a {
   text-align: right;
 }
 
-.free {
+.orange {
   color: #ea6310 !important;
 }
 
