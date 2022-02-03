@@ -201,6 +201,7 @@ footer {
   font-family: "Open Sans";
   background-position: center;
   background-size: cover;
+  background: #333333;
 
   input,button {
     -webkit-appearance: none;
@@ -213,6 +214,8 @@ footer {
 
   p{
     font-size: 14px;
+    color:white;
+  
   }
 
   input{
@@ -239,12 +242,13 @@ footer {
   }
 
   h2 {
-    color: #fe8d01;
+    color: white;
   }
 
   .links {
     text-align: right;
     width: 100%;
+    color:white;
     a {
       text-decoration: underline;
       color: #fe8d01;
