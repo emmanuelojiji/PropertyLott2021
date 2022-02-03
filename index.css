@@ -65,6 +65,9 @@
   margin-bottom: 50px;
   align-self: flex-start;
   border-radius: 1000px;
+  background: linear-gradient(90deg, #fe9232 0%, #ffbe58 100%);
+  box-shadow: 0 5px 15px rgba(254, 146, 50, 0.5);
+  font-size: 14px;
 }
 .billboard .billboard-right {
   flex: 1;
@@ -104,10 +107,9 @@
 .billboard input {
   width: 70%;
   -webkit-appearance: none;
-  background: transparent;
   border: 0;
-  border-bottom: solid 3px #fe8d01;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-weight: 700;
   margin-bottom: 20px;
   margin-top: 30px;
@@ -119,7 +121,8 @@
 }
 .billboard input::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
-  color: #fe8d01;
+  color: #333333;
+  font-size: 14px;
 }
 
 .how-it-works {
@@ -194,7 +197,8 @@ footer {
   background-size: cover;
   background: #333333;
 }
-footer input, footer button {
+footer input,
+footer button {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;

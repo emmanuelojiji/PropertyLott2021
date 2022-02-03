@@ -63,6 +63,14 @@
       margin-bottom: 50px;
       align-self: flex-start;
       border-radius: 1000px;
+      background: linear-gradient(
+        90deg,
+        rgba(254, 146, 50, 1) 0%,
+        rgba(255, 190, 88, 1) 100%
+      );
+
+      box-shadow: 0 5px 15px rgba(254, 146, 50, 0.5) ;
+      font-size: 14px;
     }
   }
 
@@ -108,10 +116,9 @@
   input {
     width: 70%;
     -webkit-appearance: none;
-    background: transparent;
     border: 0;
-    border-bottom: solid 3px #fe8d01;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-weight: 700;
     margin-bottom: 20px;
     margin-top: 30px;
@@ -123,7 +130,8 @@
 
     &::-webkit-input-placeholder {
       /* Chrome/Opera/Safari */
-      color: #fe8d01;
+      color: #333333;
+      font-size: 14px;
     }
   }
 }
@@ -203,7 +211,8 @@ footer {
   background-size: cover;
   background: #333333;
 
-  input,button {
+  input,
+  button {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -212,20 +221,19 @@ footer {
     border: 0;
   }
 
-  p{
+  p {
     font-size: 14px;
-    color:white;
-  
+    color: white;
   }
 
-  input{
+  input {
     padding-left: 12px;
     border-radius: 0 !important;
   }
 
-  button{
+  button {
     background: #fe8d01;
-    color:white;
+    color: white;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -248,7 +256,7 @@ footer {
   .links {
     text-align: right;
     width: 100%;
-    color:white;
+    color: white;
     a {
       text-decoration: underline;
       color: #fe8d01;
@@ -355,9 +363,9 @@ footer {
   }
 }
 
-.countdown{
+.countdown {
   padding-top: 50px;
-  h2{
+  h2 {
     font-size: 2em;
     line-height: 40px;
   }
