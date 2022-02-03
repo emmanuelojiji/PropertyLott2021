@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: transparent;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #fcefe7;
+}
+
+.page-width {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1 {
+  color: #191919;
+  line-height: 60px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  letter-spacing: -3px;
+  font-size: 3.5em;
+}
+@media screen and (max-width: 875px) {
+  h1 {
+    font-size: 2.5em;
+  }
+}
+
+h2 {
+  color: #191919;
+  line-height: 60px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  letter-spacing: -3px;
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 0.9em;
+  font-family: "Open Sans";
+}
+
+header {
+  padding-bottom: 50px;
+  padding-top: 25px;
+}
+header .header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  font-size: 1.6em;
+  color: #ea6310;
+  font-family: "Open Sans";
+  letter-spacing: -2px;
+  font-weight: 500;
+}
+header .logo-right {
+  font-weight: 700;
+}
+header .p {
+  font-family: "Lily Script One";
+  font-size: 1.6em;
+  letter-spacing: -6px;
+}
+header nav a {
+  padding: 16px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 14px;
+}
+@media only screen and (max-width: 691px) {
+  header nav a {
+    display: none;
+  }
+}
+
+.btn-main {
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 70%;
+  background: #fe8d01;
+  color: white;
+  height: 50px;
+  border: 0;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.cta-container {
+  display: flex;
+  box-shadow: 0 4px 30px 0 rgba(87, 87, 87, 0.2);
+  align-items: center;
+  height: 80px;
+  padding: 10px;
+  position: relative;
+  z-index: 4;
+}
+.cta-container .at {
+  padding-left: 20px;
+  font-family: "Open Sans";
+  font-weight: 800;
+  font-size: 1.4em;
+}
+.cta-container input,
+.cta-container button {
+  min-height: 100%;
+  border: 0;
+}
+.cta-container input {
+  flex: 1;
+  padding-left: 20px;
+  position: relative;
+  z-index: 5;
+  width: 100%;
+}/*# sourceMappingURL=global.css.map */

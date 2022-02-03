@@ -1,0 +1,224 @@
+.billboard {
+  margin-bottom: 70px;
+  position: relative;
+  background: #fcefe7;
+}
+.billboard .billboard-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 875px) {
+  .billboard .billboard-wrap {
+    flex-direction: column-reverse;
+  }
+}
+.billboard .plane-container {
+  max-width: 400px;
+  position: absolute;
+  top: 250px;
+  left: -80px;
+}
+@media screen and (max-width: 875px) {
+  .billboard .plane-container {
+    display: none;
+  }
+}
+.billboard .plane-container img {
+  width: 100%;
+}
+.billboard h1 {
+  font-weight: 700;
+}
+@media screen and (max-width: 875px) {
+  .billboard h1 {
+    line-height: 50px;
+    text-align: left;
+  }
+}
+.billboard .billboard-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 875px) {
+  .billboard .billboard-left {
+    width: 100%;
+  }
+}
+.billboard .billboard-left p {
+  color: #191919;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  font-weight: 600;
+  text-align: left;
+  line-height: 25px;
+  font-weight: bold;
+}
+@media screen and (max-width: 875px) {
+  .billboard .billboard-left p {
+    font-size: 0.9em;
+  }
+}
+.billboard .billboard-left .btn-main {
+  margin-bottom: 50px;
+  align-self: flex-start;
+  border-radius: 1000px;
+}
+.billboard .billboard-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.billboard .img-container {
+  position: relative;
+}
+.billboard .img-container .speech {
+  position: absolute;
+  right: -50px;
+  top: 200px;
+  background: #03078d;
+  font-weight: 600;
+  color: white;
+  border-radius: 5px;
+  border: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0 4px 30px 0 rgba(87, 87, 87, 0.2);
+}
+@media screen and (max-width: 875px) {
+  .billboard .img-container .speech {
+    display: none;
+  }
+}
+.billboard .img-container img {
+  max-width: 100%;
+}
+.billboard .iphone {
+  max-width: 200px;
+  width: 100%;
+}
+.billboard input {
+  width: 70%;
+  -webkit-appearance: none;
+  background: transparent;
+  border: 0;
+  border-bottom: solid 3px #fe8d01;
+  padding-bottom: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: #fe8d01;
+  padding-left: 12px;
+  border-radius: 0;
+}
+.billboard input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #fe8d01;
+}
+
+.how-it-works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ffd199;
+  position: relative;
+  bottom: 10px;
+}
+.how-it-works .title {
+  margin-bottom: 5px;
+}
+.how-it-works p {
+  margin-bottom: 50px;
+  font-weight: 500;
+}
+.how-it-works .column-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+@media screen and (max-width: 875px) {
+  .how-it-works .column-wrap {
+    flex-wrap: wrap;
+  }
+}
+.how-it-works .column-wrap .column {
+  display: flex;
+}
+@media screen and (max-width: 1010px) {
+  .how-it-works .column-wrap .column {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 875px) {
+  .how-it-works .column-wrap .column {
+    align-items: center;
+    text-align: center;
+  }
+}
+.how-it-works .column-title {
+  font-family: "Open Sans";
+  color: #fe8d01;
+}
+.how-it-works .column-text {
+  padding-left: 20px;
+}
+@media screen and (max-width: 875px) {
+  .how-it-works .column-text {
+    padding-left: 0;
+  }
+}
+.how-it-works .img-container {
+  max-width: 70px;
+}
+.how-it-works .img-container img {
+  width: 100%;
+}
+
+footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: "Open Sans";
+}
+
+.free {
+  color: #ea6310 !important;
+}
+
+.emoji {
+  font-size: 30px;
+}
+
+.number {
+  width: 40px;
+  height: 40px;
+  background: #fe8d01;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9000px;
+  font-family: sans-serif;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.cta {
+  text-align: center;
+}
+.cta h2 {
+  color: #fe8d01;
+  margin-bottom: 20px;
+}
+.cta p {
+  margin-bottom: 20px;
+}/*# sourceMappingURL=index.css.map */
