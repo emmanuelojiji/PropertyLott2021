@@ -219,6 +219,7 @@ footer {
     margin-top: 20px;
     height: 100%;
     border: 0;
+    border-radius: 500px;
   }
 
   p {
@@ -228,7 +229,7 @@ footer {
 
   input {
     padding-left: 12px;
-    border-radius: 0 !important;
+    border-radius: 500px;
   }
 
   button {
@@ -285,6 +286,7 @@ footer {
   color: white;
   font-weight: 700;
   margin-bottom: 20px;
+  font-family: 'open sans';
 }
 
 .cta {
