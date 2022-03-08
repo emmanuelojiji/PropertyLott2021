@@ -135,6 +135,18 @@
   bottom: 10px;
   padding-bottom: 40px;
 }
+@media screen and (min-width: 875px) {
+  .how-it-works {
+    padding-bottom: 150px;
+  }
+}
+.how-it-works .page-width {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 .how-it-works .title {
   margin-bottom: 5px;
 }
@@ -155,6 +167,8 @@
 }
 .how-it-works .column-wrap .column {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @media screen and (max-width: 1010px) {
   .how-it-works .column-wrap .column {
@@ -169,12 +183,16 @@
     text-align: center;
   }
 }
+@media screen and (min-width: 875px) {
+  .how-it-works .column-wrap .column {
+    flex-direction: column;
+    align-items: center;
+    width: 33.3333333333%;
+  }
+}
 .how-it-works .column-title {
   font-family: "Open Sans";
   color: #fe8d01;
-}
-.how-it-works .column-text {
-  padding-left: 20px;
 }
 @media screen and (max-width: 875px) {
   .how-it-works .column-text {
@@ -333,9 +351,23 @@ footer .links a {
 }
 
 .countdown {
-  padding-top: 50px;
+  margin-bottom: 50px;
+}
+@media screen and (min-width: 875px) {
+  .countdown .page-width {
+    text-align: center;
+  }
 }
 .countdown h2 {
-  font-size: 2em;
+  font-size: 2.5em;
   line-height: 40px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 875px) {
+  .countdown h2 {
+    font-size: 2em;
+  }
+}
+.countdown p {
+  font-weight: bold;
 }/*# sourceMappingURL=index.css.map */

@@ -20,4 +20,19 @@ window.onload = () => {
       }
     };
   });
+
+  /* Sticky Header */
+
+  const header = document.querySelector(".header");
+  const logo = document.querySelector(".logo");
+
+  window.onscroll = () => {
+    if (window.scrollY > 50) {
+      header.classList.add("visibleHeader");
+      logo.style.color = "white";
+    } else {
+      header.classList.remove("visibleHeader");
+      logo.style.color = "#ea6310";
+    }
+  };
 };
