@@ -158,3 +158,70 @@ width: 70%;
   transition: all 0.3s ease-in-out;
   color: white !important;
 }
+
+
+
+footer {
+  font-size: 12px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: "Open Sans";
+  background-position: center;
+  background-size: cover;
+  background: #333333;
+
+  input,
+  button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-top: 20px;
+    height: 100%;
+    border: 0;
+    border-radius: 500px;
+  }
+
+  p {
+    font-size: 14px;
+    color: white;
+  }
+
+  input {
+    padding-left: 12px;
+    border-radius: 500px;
+  }
+
+  button {
+    background: #fe8d01;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .footer-cta {
+    margin-bottom: 50px;
+    height: 50px;
+  }
+
+  .logo {
+    font-size: 1.2em;
+    text-align: right;
+    display: block;
+  }
+
+  h2 {
+    color: #fe8d01;
+  }
+
+  .links {
+    text-align: right;
+    width: 100%;
+    color: white;
+    a {
+      text-decoration: underline;
+      color: #fe8d01;
+
+      text-align: right;
+    }
+  }
+}

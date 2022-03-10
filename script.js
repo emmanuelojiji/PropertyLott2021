@@ -21,7 +21,7 @@ window.onload = () => {
     };
   });
 
-  /* Sticky Header */
+  /* Sticky Header 
 
   const header = document.querySelector(".header");
   const logo = document.querySelector(".logo");
@@ -34,5 +34,5 @@ window.onload = () => {
       header.classList.remove("visibleHeader");
       logo.style.color = "#ea6310";
     }
-  };
+  }; */
 };
