@@ -87,13 +87,14 @@
   }
 }
 
-.billboard .billboard-left .btn-main {
+.billboard .billboard-left .subscribe-button {
   margin-bottom: 50px;
   -ms-flex-item-align: start;
       align-self: flex-start;
   border-radius: 1000px;
   background: -webkit-gradient(linear, left top, right top, from(#fe9232), to(#ffbe58));
   background: linear-gradient(90deg, #fe9232 0%, #ffbe58 100%);
+  color: white !important;
   -webkit-box-shadow: 0 5px 15px rgba(254, 146, 50, 0.5);
           box-shadow: 0 5px 15px rgba(254, 146, 50, 0.5);
   font-size: 14px;

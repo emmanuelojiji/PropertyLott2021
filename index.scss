@@ -59,7 +59,7 @@
       }
     }
 
-    .btn-main {
+    .subscribe-button {
       margin-bottom: 50px;
       align-self: flex-start;
       border-radius: 1000px;
@@ -68,6 +68,7 @@
         rgba(254, 146, 50, 1) 0%,
         rgba(255, 190, 88, 1) 100%
       );
+      color:white !important;
 
       box-shadow: 0 5px 15px rgba(254, 146, 50, 0.5);
       font-size: 14px;
